@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transfromer</title>
+    <style>
+        .container,
+        .inner {
+            width: 200px;
+            height: 200px;
+            border: 2px solid khaki;
+
+        }
+
+        .container {
+            background-color: lightblue;
+        }
+
+        .inner {
+            background-color: lightcoral;
+            font-size: 40px;
+            text-align: center;
+            transform: translatey(50px) scale(0.62) rotate(45deg);
+            animation: mymove 5s infinite;
+
+        }
+
+        @keyframes mymove {
+            50% {
+                transform: rotate(45deg);
+            }
+        }
+
+        }
+    </style>
+</head>
+<h1>now i am learning css Transfromer</h1>
+
+<body>
+    <div class="box container">
+        <div class="inner">box- 1</div>
+    </div>
+    <div class="box container">
+        <div class="inner">box- 2</div>
+    </div>
+    <div class="box container">
+        <div class="inner">box- 3</div>
+    </div>
+</body>
+
+</html>
